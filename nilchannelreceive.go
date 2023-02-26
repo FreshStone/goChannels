@@ -21,6 +21,7 @@ func main() {
 	ball <- "referee" // kick off
 //	var c chan bool   // nil
 //	<-c               // blocking here for ever
-//	a := make(chan int)
-//	<-a
+	a := make(chan int)
+	<-a
 }
+
